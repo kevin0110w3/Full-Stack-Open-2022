@@ -1,0 +1,39 @@
+GET http://localhost:3003/api/blogs
+
+###
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJpZCI6IjYyNDljZDZhM2U2NWFmNTRjMjhjNTUyMyIsImlhdCI6MTY1MDYxNjM2MCwiZXhwIjoxNjUwNjE5OTYwfQ.O7jueEybep4TfRZShNiqyIkInoMKOQ8CWKq-k77a0i8
+
+{
+    "title": "React patterns",
+    "author": "Michael Chan",
+    "url": "https://reactpatterns.com/",
+    "likes": 7
+}
+
+###
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJpZCI6IjYyNDljZDZhM2U2NWFmNTRjMjhjNTUyMyIsImlhdCI6MTY1MDYxNjM2MCwiZXhwIjoxNjUwNjE5OTYwfQ.O7jueEybep4TfRZShNiqyIkInoMKOQ8CWKq-k77a0i8
+
+{
+    "title": "Go To Statement Considered Harmful",
+    "author": "Edsger W. Dijkstra",
+    "url": "http://www.u.arizona.edu/~rubinson/copyright_violations/Go_To_Considered_Harmful.html",
+    "likes": 5,
+    "userId": "6249cd6a3e65af54c28c5523"
+}
+
+###
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+    {
+
+      "title": "Canonical string reduction",
+      "author": "Edsger W. Dijkstra",
+      "url": "http://www.cs.utexas.edu/~EWD/transcriptions/EWD08xx/EWD808.html",
+      "likes": 12,
+      "userId": "6249bf47dfab34b8472a9bae"
+    }

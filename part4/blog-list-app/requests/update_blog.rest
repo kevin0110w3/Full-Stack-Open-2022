@@ -1,0 +1,10 @@
+PUT http://localhost:3003/api/blogs/62408df1eb9d2aa68889d2b1
+Content-Type: application/json
+
+{
+  "title": "React Patterns",
+  "author": "Sam Chan",
+  "url": "https://nono.com/",
+  "likes": -200,
+  "id": "62408df1eb9d2aa68889d2b1"
+}
